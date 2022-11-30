@@ -1,20 +1,3 @@
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("martin.ruscade@yahoo.com", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -389,7 +372,7 @@ $_POST["insert your message here"]. "From: an@email.address");
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form method="post" action="contactme.php" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form method="post" action="contactme.php" class="contact-form col-md-10 col-lg-8 m-auto" netlify>
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
